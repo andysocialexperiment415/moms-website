@@ -93,7 +93,7 @@ const Home = () => {
                 <br /><br />
                 What makes Lana special is her unique "Learning Alphabet and Mathematics Through Arts and Crafts" technique - turning potentially scary subjects into creative adventures. Her background as a production director of children's theatrical groups brings imagination and storytelling into every day.
                 <br /><br />
-                <em>"What I love most is running into former students years later and seeing the confident, interesting people they've become. That spark we nurture here never really goes away."</em>
+                <em>"What I love most is running into former students years later and seeing the confident, interesting people they&apos;ve become. That spark we nurture here never really goes away."</em>
                 <br />
                 <span className="block mt-3 font-semibold">- Lana</span>
               </p>
@@ -161,14 +161,14 @@ const Home = () => {
             <div className="bg-white bg-opacity-90 p-6 md:p-8 rounded-lg shadow-lg">
               <ul className="space-y-2 text-sm md:text-base">
                 <li className="text-gray-700">- Full-time loving care (8 AM - 6 PM, Monday-Friday)</li>
-                <li className="text-gray-700">- Kindergarten readiness curriculum tailored to your child's pace</li>
+                <li className="text-gray-700">- Kindergarten readiness curriculum tailored to your child&apos;s pace</li>
                 <li className="text-gray-700">- Comprehensive developmental program (math, literacy, science, arts, music)</li>
                 <li className="text-gray-700">- Daily individual attention and emotional support</li>
                 <li className="text-gray-700">- Five nutritious home-cooked meals daily (breakfast, lunch, dinner, 2 snacks)</li>
                 <li className="text-gray-700">- Creative arts program including clay work, painting, and crafts</li>
                 <li className="text-gray-700">- Musical development with instruments and theatrical performances</li>
                 <li className="text-gray-700">- Fine and gross motor skill development plus writing preparation</li>
-                <li className="text-gray-700">- All learning materials and creative supplies for your child's growth</li>
+                <li className="text-gray-700">- All learning materials and creative supplies for your child&apos;s growth</li>
                 <li className="text-gray-700">- A safe, nurturing environment where your child can truly thrive</li>
               </ul>
             </div>
@@ -186,7 +186,7 @@ const Home = () => {
           }}
         >
           <div className="relative z-10 max-w-6xl mx-auto px-8">
-            <h2 className="text-3xl md:text-5xl font-bold text-center text-yellow-700 mb-12">Your Child's Guaranteed Growth</h2>
+            <h2 className="text-3xl md:text-5xl font-bold text-center text-yellow-700 mb-12">Your Child&apos;s Guaranteed Growth</h2>
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <li className="p-4 md:p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 text-center">
                 <img src="/iconconfident.png" alt="Confident Icon" className="mx-auto mb-4 w-10 h-10 md:w-12 md:h-12" />
