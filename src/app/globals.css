@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Background Images - Desktop */
+.hero-section {
+  background-image: url('/hero-desktop.png?v=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.about-section {
+  background-image: url('/about-desktop.png?v=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.choose-section {
+  background-image: url('/choose-desktop.png?v=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.early-section {
+  background-image: url('/early-desktop.png?v=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.growth-section {
+  background-image: url('/growth-desktop.png?v=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.testimonials-section {
+  background-image: url('/testimonials-desktop.png?v=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.contact-section {
+  background-image: url('/aboutlanatrial4.png?v=1'); /* Using an existing image for now */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Mobile Background Images */
+@media (max-width: 768px) {
+  .hero-section {
+    background-image: url('/hero-mobile.png?v=1');
+  }
+  
+  .about-section {
+    background-image: url('/about-mobile.png?v=1');
+  }
+  
+  .choose-section {
+    background-image: url('/choose-mobile.png?v=1');
+  }
+  
+  .early-section {
+    background-image: url('/early-mobile.png?v=1');
+  }
+  
+  .growth-section {
+    background-image: url('/growth-mobile.png?v=1');
+  }
+  
+  .testimonials-section {
+    background-image: url('/testimonials-mobile.png?v=1');
+  }
+  
+  .contact-section {
+    background-image: url('/contact-mobile.png?v=1');
+  }
+}
+
+/* Responsive scaling for shapes */
+@media (max-width: 768px) {
+  .absolute.top-10.left-10,
+  .absolute.top-32.right-16,
+  .absolute.bottom-20.left-20,
+  .absolute.bottom-32.right-10 {
+    transform: scale(0.7);
+  }
+}
